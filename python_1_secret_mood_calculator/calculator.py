@@ -11,7 +11,7 @@ elif operation == "-":
 elif operation == "*":
     print(number1,"*",number2,"=",number1*number2)
 elif operation == "/" and number2 != 0:
-    print(number1,"/",number2,"=",int(number1/number2))
+    print(number1,"/",number2,"=",(number1/number2))
 elif operation == "/" and number2 == 0:
     print("Don't divide by zero")
 else:

@@ -1,4 +1,4 @@
-mood="relaxed"
+mood=str(input("How do you feel? "))
 
 
 if mood == "happy":
@@ -6,7 +6,7 @@ if mood == "happy":
 elif mood == "nervous":
     print("Take a deep breath 3 times")
 elif mood == "sad":
-    print("Talk to a good friend")
+    print("Talk to a good friend :(")
 elif mood == "excited":
     print("Oh, that's cool!")
 elif mood == "relaxed":
